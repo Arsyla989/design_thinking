@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Keuangan UMKM Mie Ayam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍜 Keuangan UMKM Mie Ayam</h1>
+  <nav>
+    <a href="index.html">Keuangan</a>
+    <a href="promosi.html">Promosi</a>
+  </nav>
+</header>
+
+<main>
+  <section class="form">
+    <h2>Tambah Catatan</h2>
+    <input type="date" id="tanggal">
+    <input type="text" id="keterangan" placeholder="Keterangan">
+    <input type="number" id="jumlah" placeholder="Jumlah (Rp)">
+    <select id="tipe">
+      <option value="masuk">Pemasukan</option>
+      <option value="keluar">Pengeluaran</option>
+    </select>
+    <button onclick="tambahData()">Simpan</button>
+  </section>
+
+  <section class="data">
+    <h2>Catatan Keuangan</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tanggal</th>
+          <th>Keterangan</th>
+          <th>Jenis</th>
+          <th>Jumlah</th>
+        </tr>
+      </thead>
+      <tbody id="tabelData"></tbody>
+    </table>
+    <h3 id="saldo">Saldo: Rp 0</h3>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
