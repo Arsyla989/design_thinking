@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #ff9800;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.form, .data, .promo {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  background: #ff9800;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.promo img {
+  width: 100%;
+  border-radius: 10px;
+}
+.promo-spesial ul {
+  list-style: none;
+  padding: 0;
+}
+
+.promo-spesial li {
+  background: #fff3e0;
+  margin: 5px 0;
+  padding: 8px;
+  border-left: 5px solid #ff9800;
+}
+
+.menu table {
+  margin-top: 10px;
+}
+
+.menu th {
+  background: #ff9800;
+  color: white;
+}
